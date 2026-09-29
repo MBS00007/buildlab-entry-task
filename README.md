@@ -251,23 +251,3 @@ Good luck, and remember:
 Student Software Engineering Community
 ```
 
-### One thing I'd change later
-
-I would **not put the exact evaluation criteria in this README**.
-
-The applicant should know the assignment and the rules, but they don't need to see something like:
-
-> "You get 20 points for Git, 15 for AI usage..."
-
-That can influence how they behave during the test.
-
-Instead, **we keep a separate internal document** called something like:
-
-> **BuildLab Entry Task - Reviewer Guide**
-
-That document is for you and your co-founder. It will contain the checklist for reviewing the applicant's **code, Git history, PR, AI usage, response to feedback, and communication**.
-
-That separation is important:
-
-**Applicant README = instructions**  
-**Reviewer Guide = evaluation**

@@ -1,5 +1,4 @@
 
-```markdown
 # BuildLab Entry Task
 
 Welcome to the BuildLab Entry Task.

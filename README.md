@@ -1,54 +1,204 @@
 
-# BuildLab Entry Task
+# BuildLab Entry Challenge
 
-Welcome to the BuildLab Entry Task.
+Welcome to the **BuildLab Entry Challenge**.
 
-This repository contains a small Student Task Board application. Your task is to make a small improvement to the existing project and submit your work through GitHub.
+This challenge is part of the BuildLab recruitment process.
 
-This is not a traditional coding exam.
+BuildLab is a student Software Engineering community focused on learning, collaboration, and building real-world software.
 
-You are expected to explore the existing code, solve the assigned problem, use the tools available to you, and explain the work you submit.
+This challenge is not designed to test whether you already know everything.
 
----
-
-## 🎯 Your Task
-
-Add a **search feature** to the Student Task Board.
-
-The user should be able to search through their existing tasks.
-
-### The search feature should:
-
-- Update as the user types
-- Find tasks regardless of uppercase or lowercase
-- Display matching tasks
-- Display a clear message when no tasks match
-- Continue working with the existing task features
-- Not break adding, completing, or deleting tasks
-
-Keep your changes focused on the assigned task.
+It is designed to see how you approach a real software project, how you learn, how you use modern development tools, how you solve problems, and how you work with GitHub.
 
 ---
 
-## 🛠️ Technologies
+# 1. The Challenge
 
-This project uses:
+Your task is to build a small web application called:
+
+## Student Task Manager
+
+The application should help students manage their academic and daily tasks.
+
+A student should be able to create tasks, view them, search through them, filter them, mark them as completed, and delete them.
+
+You are responsible for deciding how the application should look and how you should implement it.
+
+There is no required design.
+
+Your goal is to build a clean, functional, and usable application.
+
+---
+
+# 2. Required Features
+
+Your application must include the following features.
+
+## Create Tasks
+
+Users should be able to create a new task.
+
+Each task should contain at least:
+
+- Task title
+- Description
+- Status
+- Date created
+
+You may add additional information if you believe it improves the application.
+
+---
+
+## View Tasks
+
+Users should be able to see their tasks clearly.
+
+The application should make it easy to understand:
+
+- What tasks exist
+- Which tasks are pending
+- Which tasks are completed
+
+---
+
+## Complete Tasks
+
+Users should be able to mark a task as completed.
+
+If you choose, users may also be able to change a completed task back to pending.
+
+---
+
+## Delete Tasks
+
+Users should be able to delete tasks they no longer need.
+
+You may add a confirmation step before deleting a task.
+
+---
+
+## Search Tasks
+
+Users should be able to search through their tasks.
+
+The search should:
+
+- Update as the user searches
+- Find relevant tasks
+- Work regardless of uppercase or lowercase differences
+- Clearly show when no matching task exists
+
+---
+
+## Filter Tasks
+
+Users should be able to filter their tasks.
+
+At minimum, provide:
+
+- All
+- Pending
+- Completed
+
+---
+
+## Task Summary
+
+The application should provide a simple summary of the user's tasks.
+
+For example:
+
+- Total tasks
+- Pending tasks
+- Completed tasks
+
+You may decide how this information is displayed.
+
+---
+
+# 3. User Experience Requirements
+
+The application should be simple and easy to understand.
+
+A user should be able to use the application without needing a separate instruction manual.
+
+Your application should:
+
+- Work on desktop
+- Work on mobile
+- Have readable text
+- Have clear buttons and controls
+- Have a consistent layout
+- Provide feedback when actions are completed
+- Handle empty states properly
+- Handle invalid or empty input appropriately
+
+You are free to decide the visual design.
+
+There is no required:
+
+- Color scheme
+- Font
+- Layout
+- Logo
+- Design style
+
+Make your own design decisions.
+
+---
+
+# 4. Technology Requirements
+
+For this challenge, you must use only:
 
 - HTML
 - CSS
 - JavaScript
 
-Do not introduce a framework such as React, Vue, Angular, or Next.js for this task.
+Do not use:
 
-You should work with the existing project rather than replacing it with a completely new application.
+- React
+- Next.js
+- Vue
+- Angular
+- Svelte
+- Bootstrap
+- Tailwind CSS
+- jQuery
+- Other frontend frameworks
+- Other UI libraries
+
+The purpose of this requirement is to make sure everyone works with the same basic technologies and demonstrates their understanding of web fundamentals.
 
 ---
 
-## 🤖 AI Usage
+# 5. Data Storage
 
-AI tools are **allowed and encouraged**.
+Your application must preserve tasks when the page is refreshed.
 
-You may use tools such as:
+For this challenge, use:
+
+**Browser LocalStorage**
+
+Do not create:
+
+- A backend
+- A database
+- An API
+- Authentication
+
+The goal is to keep the project focused on HTML, CSS, and JavaScript fundamentals.
+
+---
+
+# 6. AI Usage
+
+## AI IS ALLOWED AND ENCOURAGED
+
+You may use modern AI development tools during this challenge.
+
+Examples include:
 
 - ChatGPT
 - Claude
@@ -59,195 +209,538 @@ You may use tools such as:
 
 You may use AI to:
 
-- Understand unfamiliar code
-- Learn concepts
-- Generate or improve code
-- Debug problems
-- Review your implementation
-- Help you understand Git or GitHub
+- Understand unfamiliar concepts
+- Plan your application
+- Learn HTML, CSS, or JavaScript
+- Generate code
+- Debug errors
+- Explain code
+- Improve your implementation
+- Review your code
+- Research possible solutions
+
+Using AI is **not against the rules**.
 
 However, you are responsible for the code you submit.
 
-You should understand what your code does and be able to explain your changes during the review.
+You should understand the important parts of your application and be able to explain your implementation during the review.
+
+Do not blindly submit code that you do not understand.
 
 ---
 
-# 🌱 Git & GitHub Workflow
+# 7. Git & GitHub Workflow
 
-Please follow this workflow:
+This challenge also tests your ability to work with Git and GitHub.
 
-### 1. Fork this repository
+Please follow this workflow.
 
-Create your own copy of this repository under your GitHub account.
+## Step 1: Fork the Repository
 
-### 2. Clone your fork
+Fork this repository into your own GitHub account.
 
-Clone your repository to your computer.
+Do not directly modify the BuildLab repository.
 
-### 3. Create a branch
+---
 
-Do not work directly on `main`.
+## Step 2: Clone Your Fork
 
-Create a branch for your feature.
+Clone your fork to your computer.
 
 Example:
 
 ```bash
-git checkout -b feature/task-search
-```
+git clone YOUR_REPOSITORY_URL
 
-### 4. Understand the existing project
+Then open the project in your preferred code editor.
 
-Before changing the code, explore the project and understand how the existing task functionality works.
-
-### 5. Implement the feature
-
-Add the search functionality while keeping the existing features working.
-
-### 6. Test your changes
-
-Make sure you test:
-
-- Searching for an existing task
-- Searching with different uppercase/lowercase combinations
-- Searching for something that does not exist
-- Adding a task
-- Completing a task
-- Deleting a task
-
-### 7. Commit your changes
-
-Use a clear commit message.
-
-Example:
-
-```bash
-git add .
-git commit -m "feat: add task search"
-```
-
-### 8. Push your branch
-
-```bash
-git push origin feature/task-search
-```
-
-### 9. Open a Pull Request
-
-Create a Pull Request from your branch to the original BuildLab repository.
 
 ---
 
-# 📋 Pull Request Requirements
+Step 3: Create a Branch
 
-When creating your Pull Request, include:
+Do not work directly on main.
 
-## What I Changed
+Create a feature branch.
 
-Briefly describe what you changed.
+Example:
 
-## How I Implemented It
+git checkout -b feature/student-task-manager
 
-Explain the general approach you used.
+You may choose another appropriate branch name.
 
-## How I Tested It
 
-Explain what you tested and whether everything worked as expected.
+---
 
-## AI Usage
+Step 4: Build the Application
 
-Tell us whether you used AI.
+Read the requirements carefully.
 
-If you did, briefly explain how you used it.
+Plan your approach before you start building.
+
+You are responsible for making your own:
+
+HTML structure
+
+CSS design
+
+JavaScript logic
+
+User experience decisions
+
+
+
+---
+
+Step 5: Test Your Application
+
+Before submitting your work, test the major features.
+
+At minimum, test:
+
+Creating a task
+
+Viewing tasks
+
+Completing a task
+
+Deleting a task
+
+Searching
+
+Filtering
+
+Refreshing the page
+
+LocalStorage persistence
+
+Empty states
+
+Invalid or empty input
+
+Mobile responsiveness
+
+
+Also make sure that one feature does not break another.
+
+
+---
+
+8. Commit Your Work
+
+Use meaningful Git commits.
+
+Avoid commit messages such as:
+
+final
+done
+update
+project
+
+Instead, use messages that describe what changed.
+
+Examples:
+
+git commit -m "feat: add task creation"
+
+git commit -m "feat: add task filtering"
+
+git commit -m "fix: handle empty task input"
+
+You do not need to create a huge number of commits.
+
+Make commits that represent meaningful changes.
+
+
+---
+
+9. Push Your Branch
+
+Push your branch to your GitHub fork.
+
+Example:
+
+git push origin feature/student-task-manager
+
+
+---
+
+10. Create a Pull Request
+
+After completing your work, create a Pull Request from your branch to the original BuildLab repository.
+
+Your Pull Request should include:
+
+What I Built
+
+Briefly describe your application.
+
+Main Features
+
+List the main features you implemented.
+
+Technical Approach
+
+Explain how you implemented the main functionality.
+
+How I Tested It
+
+Explain what you tested.
+
+AI Usage
+
+Tell us:
+
+Which AI tools you used
+
+What you used them for
+
+How AI helped you
+
+Anything important you learned from using AI
+
+
+Challenges
+
+Mention one or two challenges you encountered and how you solved them.
+
+Known Limitations
+
+If something is incomplete or could be improved, tell us.
+
+Do not pretend that everything is perfect.
+
+
+---
+
+11. Code Review
+
+After submitting your Pull Request, BuildLab will review your work.
+
+You may receive comments or requests for changes.
+
+For example, a reviewer may ask you to:
+
+Fix a bug
+
+Improve part of the code
+
+Improve an error state
+
+Explain a technical decision
+
+Refactor a section
+
+Improve accessibility
+
+Improve the user experience
+
+
+If changes are requested:
+
+1. Make the changes on the same branch.
+
+
+2. Commit the changes.
+
+
+3. Push the branch again.
+
+
+
+Your existing Pull Request will automatically update.
+
+You do not need to create a new Pull Request.
+
+
+---
+
+12. Be Ready to Explain Your Work
+
+After submitting your application, you may be asked questions about your implementation.
 
 For example:
 
-> I used ChatGPT to help me understand the existing JavaScript structure and debug the search logic. I reviewed and tested the generated suggestions before implementing them.
+Why did you structure your HTML this way?
+
+How does your task creation work?
+
+How are tasks stored?
+
+How does your search work?
+
+How does LocalStorage work in your application?
+
+What happens when the user refreshes the page?
+
+Why did you choose this design?
+
+What did AI help you with?
+
+What problems did you encounter?
+
+What would you improve if you had more time?
+
+
+You do not need to know every answer immediately.
+
+If you do not know something, be honest and explain how you would find the answer.
+
 
 ---
 
-# 🔍 Code Review
+13. Project Quality
 
-After submitting your Pull Request, a BuildLab reviewer may leave comments or request changes.
+We are not expecting a production-ready application.
 
-Please read the feedback carefully and make any requested changes.
+However, your project should demonstrate reasonable care.
 
-If you make additional changes:
+We will look at things such as:
 
-1. Update your code
-2. Commit the changes
-3. Push them to the same branch
+Working functionality
 
-Your existing Pull Request will update automatically.
+Clean HTML
 
-You do **not** need to create a new Pull Request.
+Organized CSS
 
----
+Readable JavaScript
 
-# ⚠️ Important Rules
+Reasonable naming
 
-- Do not replace the entire project.
-- Do not introduce a new framework.
-- Do not delete existing functionality.
-- Do not commit passwords, API keys, or other secrets.
-- Keep your changes related to the assigned task.
-- Test your work before submitting.
-- Use clear commit messages.
-- Ask questions if you are genuinely stuck.
-- You are responsible for understanding the code you submit.
+Good user experience
 
----
+Responsive design
 
-# 💡 If You Get Stuck
+Basic error handling
 
-Getting stuck is normal.
+Good Git practices
 
-You may:
+Clear documentation
 
-- Read the existing code
-- Search documentation
-- Use AI tools
-- Research the problem
-- Ask for clarification
 
-We are interested in how you approach problems, not whether you know everything immediately.
+A simple but well-built application is completely acceptable.
+
 
 ---
 
-# ✅ Before You Submit
+14. Security
 
-Make sure:
+Do not commit sensitive information to GitHub.
 
-- [ ] The search feature works
-- [ ] Search is case-insensitive
-- [ ] No-results message works
-- [ ] Adding tasks still works
-- [ ] Completing tasks still works
-- [ ] Deleting tasks still works
-- [ ] You tested your changes
-- [ ] Your branch has a clear name
-- [ ] Your commits have clear messages
-- [ ] Your Pull Request explains your work
-- [ ] You can explain the code you submitted
+Never commit:
 
----
+Passwords
 
-# 🚀 Final Step
+API keys
 
-Once you have completed the task:
+Secret tokens
 
-**Push your branch → Open a Pull Request → Wait for BuildLab's review.**
+Private credentials
 
-Good luck, and remember:
+Other sensitive information
 
-> You don't need to know everything.
->
-> You need to be willing to learn, solve problems, and take responsibility for your work.
+
+For this challenge, you should not need any secret credentials.
+
 
 ---
 
-**BuildLab Community**
+15. Keep the Scope Reasonable
+
+You do not need to build:
+
+User authentication
+
+Payment systems
+
+Chat
+
+Notifications
+
+Admin dashboards
+
+Complex backend systems
+
+AI agents
+
+APIs
+
+Databases
+
+
+Focus on completing the required application properly.
+
+We value a well-finished MVP more than an unfinished application with many unnecessary features.
+
+
+---
+
+16. Optional Features
+
+Once all required features are working, you may add additional features using only HTML, CSS, and JavaScript.
+
+Examples:
+
+Task priorities
+
+Categories
+
+Due dates
+
+Sorting
+
+Dark mode
+
+Keyboard shortcuts
+
+Drag and drop
+
+Task statistics
+
+Better accessibility
+
+Custom confirmation dialogs
+
+
+Optional features are not required.
+
+Do not sacrifice required features just to add extra features.
+
+
+---
+
+17. Documentation
+
+Your completed project should include documentation explaining:
+
+What the application does
+
+Technologies used
+
+How to run the application
+
+How tasks are stored
+
+AI tools used
+
+Known limitations
+
+
+Another developer should be able to clone your repository and understand how to run your project.
+
+
+---
+
+18. Submission Checklist
+
+Before creating your Pull Request, make sure:
+
+[ ] Application runs correctly
+
+[ ] Tasks can be created
+
+[ ] Tasks can be viewed
+
+[ ] Tasks can be completed
+
+[ ] Tasks can be deleted
+
+[ ] Tasks can be searched
+
+[ ] Tasks can be filtered
+
+[ ] Task summary works
+
+[ ] Data remains after refresh
+
+[ ] LocalStorage works correctly
+
+[ ] Empty states are handled
+
+[ ] Invalid input is handled
+
+[ ] Application works on mobile
+
+[ ] HTML is reasonably organized
+
+[ ] CSS is reasonably organized
+
+[ ] JavaScript is reasonably organized
+
+[ ] No sensitive information is committed
+
+[ ] A Git branch was used
+
+[ ] Commits have meaningful messages
+
+[ ] Project documentation is included
+
+[ ] Pull Request description is complete
+
+[ ] AI usage has been documented
+
+[ ] You can explain your implementation
+
+
+
+---
+
+19. Important
+
+You are not expected to know everything before starting this challenge.
+
+You are allowed to:
+
+Research
+
+Read documentation
+
+Use AI
+
+Make mistakes
+
+Ask questions when something is unclear
+
+
+What matters is how you approach the problem, learn what you need, build the solution, and take responsibility for the work you submit.
+
+
+---
+
+20. Final Submission
+
+The expected workflow is:
+
+Fork
+  ↓
+Clone
+  ↓
+Create Branch
+  ↓
+Plan
+  ↓
+Build
+  ↓
+Test
+  ↓
+Commit
+  ↓
+Push
+  ↓
+Pull Request
+  ↓
+Code Review
+  ↓
+Make Changes
+  ↓
+Final Review
+
+Build something you can explain, not just something that runs.
+
+
+---
+
+BuildLab Community
 
 Student Software Engineering Community
-```
 

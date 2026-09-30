@@ -12,7 +12,7 @@ It is designed to see how you approach a real software project, how you learn, h
 
 ## Deadline and Rules
 
-**Deadline: [DATE, TIME]**
+**Deadline: [3/10/2026]**
 
 - Complete this challenge alone. AI tools are allowed, but the work and the understanding must be yours.
 - Late Pull Requests will not be reviewed.

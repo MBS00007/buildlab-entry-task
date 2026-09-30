@@ -12,11 +12,11 @@ It is designed to see how you approach a real software project, how you learn, h
 
 ## Deadline and Rules
 
-**Deadline: [3/10/2026]**
+**Deadline: Saturday 3 October 2026, 11:59 PM**
 
 - Complete this challenge alone. AI tools are allowed, but the work and the understanding must be yours.
 - Late Pull Requests will not be reviewed.
-- After you open your Pull Request, fill in the application form: **[FORM LINK]**
+- After you open your Pull Request, fill in the application form: [BuildLab Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfY1UWLsTv9_4yo_hMGW_ttUgfo9AAPRFBc1VZy5LPFAdJHaQ/viewform)
   You will need your GitHub username and your Pull Request link.
 
 ---
@@ -363,7 +363,7 @@ If something is incomplete or could be improved, tell us.
 
 Do not pretend that everything is perfect.
 
-**Then fill in the application form:** [FORM LINK]
+**Then fill in the application form:** [BuildLab Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfY1UWLsTv9_4yo_hMGW_ttUgfo9AAPRFBc1VZy5LPFAdJHaQ/viewform)
 
 ---
 

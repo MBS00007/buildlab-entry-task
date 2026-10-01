@@ -1,603 +1,862 @@
-# BuildLab Entry Challenge
+
+🚀 BuildLab Entry Challenge
 
 Welcome to the BuildLab Entry Challenge.
 
-This challenge is part of the BuildLab recruitment process.
+BuildLab is a student Software Engineering community focused on learning together, building real projects, solving real problems, and growing as engineers.
 
-BuildLab is a student Software Engineering community focused on learning, collaboration, and building real-world software.
+This challenge is part of our recruitment process.
 
-This challenge is not designed to test whether you already know everything.
+We are not looking for people who already know everything. We are looking for students who can learn, think, build, communicate, and take responsibility for their work.
 
-It is designed to see how you approach a real software project, how you learn, how you use modern development tools, how you solve problems, and how you work with GitHub.
-
-## Deadline and Rules
-
-**Deadline: Saturday 3 October 2026, 11:59 PM**
-
-- Complete this challenge alone. AI tools are allowed, but the work and the understanding must be yours.
-- Late Pull Requests will not be reviewed.
-- After you open your Pull Request, fill in the application form: [BuildLab Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfY1UWLsTv9_4yo_hMGW_ttUgfo9AAPRFBc1VZy5LPFAdJHaQ/viewform)
-  You will need your GitHub username and your Pull Request link.
 
 ---
 
-## 1. The Challenge
+🎯 What This Challenge Tests
 
-Your task is to build a small web application called:
+This challenge gives you a small real-world software task.
 
-**Student Task Manager**
+We want to see how you:
 
-The application should help students manage their academic and daily tasks.
+Understand requirements
 
-A student should be able to create tasks, view them, search through them, filter them, mark them as completed, and delete them.
+Solve problems
 
-You are responsible for deciding how the application should look and how you should implement it.
+Learn independently
 
-There is no required design.
+Write and organize code
 
-Your goal is to build a clean, functional, and usable application.
+Use Git and GitHub
+
+Use AI tools responsibly
+
+Test your work
+
+Handle feedback
+
+Explain your decisions
+
+Document your project
+
+
+You are not expected to build a production-level application.
+
+We are more interested in how you approach the problem than how many fancy features you add.
+
 
 ---
 
-## 2. Required Features
+⏰ Deadline
 
-Your application must include the following features.
+Saturday, 3 October 2026, 11:59 PM
 
-### Create Tasks
+Late Pull Requests will not be reviewed.
 
-Users should be able to create a new task.
+Your application is considered complete only when you have:
+
+1. Submitted your project through a Pull Request.
+
+
+2. Submitted the application form after opening your Pull Request.
+
+
+
+
+---
+
+📌 Challenge: Student Task Manager
+
+Build a simple Student Task Manager that allows a student to manage their tasks.
+
+The application must be built from scratch using:
+
+HTML
+
+CSS
+
+JavaScript
+
+
+🚫 Do not use:
+
+React
+
+Next.js
+
+Vue
+
+Angular
+
+Svelte
+
+Bootstrap
+
+Tailwind CSS
+
+jQuery
+
+Frontend frameworks
+
+UI libraries
+
+
+The goal is to see your understanding of the fundamentals.
+
+
+---
+
+🧩 Required Features
+
+Your application must allow users to:
+
+1. Create Tasks
+
+A user should be able to add a new task.
 
 Each task should contain at least:
 
-- Task title
-- Description
-- Status
-- Date created
+Task title
 
-You may add additional information if you believe it improves the application.
 
-### View Tasks
+You may add additional information if you want.
 
-Users should be able to see their tasks clearly.
 
-The application should make it easy to understand:
+---
 
-- What tasks exist
-- Which tasks are pending
-- Which tasks are completed
+2. View Tasks
 
-### Complete Tasks
+Display created tasks clearly.
+
+Each task should show its current status.
+
+
+---
+
+3. Complete Tasks
 
 Users should be able to mark a task as completed.
 
-If you choose, users may also be able to change a completed task back to pending.
+Users should also be able to change a completed task back to pending.
 
-### Delete Tasks
 
-Users should be able to delete tasks they no longer need.
+---
 
-You may add a confirmation step before deleting a task.
+4. Delete Tasks
 
-### Search Tasks
+Users should be able to delete tasks.
 
-Users should be able to search through their tasks.
 
-The search should:
+---
 
-- Update as the user searches
-- Find relevant tasks
-- Work regardless of uppercase or lowercase differences
-- Clearly show when no matching task exists
+5. Search Tasks
 
-### Filter Tasks
+Add a search feature.
 
-Users should be able to filter their tasks.
-
-At minimum, provide:
-
-- All
-- Pending
-- Completed
-
-### Task Summary
-
-The application should provide a simple summary of the user's tasks.
+The search must be case-insensitive.
 
 For example:
 
-- Total tasks
-- Pending tasks
-- Completed tasks
+Searching for:
 
-You may decide how this information is displayed.
+assignment
 
----
+should also find:
 
-## 3. User Experience Requirements
+Assignment
+ASSIGNMENT
+aSsIgNmEnT
 
-The application should be simple and easy to understand.
-
-A user should be able to use the application without needing a separate instruction manual.
-
-Your application should:
-
-- Work on desktop
-- Work on mobile
-- Have readable text
-- Have clear buttons and controls
-- Have a consistent layout
-- Provide feedback when actions are completed
-- Handle empty states properly
-- Handle invalid or empty input appropriately
-
-You are free to decide the visual design.
-
-There is no required:
-
-- Color scheme
-- Font
-- Layout
-- Logo
-- Design style
-
-Make your own design decisions.
 
 ---
 
-## 4. Technology Requirements
+6. Filter Tasks
 
-For this challenge, you must use only:
+Users should be able to filter tasks by:
 
-- HTML
-- CSS
-- JavaScript
+All
 
-Do not use:
+Pending
 
-- React
-- Next.js
-- Vue
-- Angular
-- Svelte
-- Bootstrap
-- Tailwind CSS
-- jQuery
-- Other frontend frameworks
-- Other UI libraries
+Completed
 
-The purpose of this requirement is to make sure everyone works with the same basic technologies and demonstrates their understanding of web fundamentals.
+
 
 ---
 
-## 5. Data Storage
+7. Task Summary
 
-Your application must preserve tasks when the page is refreshed.
+Display a simple summary showing:
 
-For this challenge, use **Browser LocalStorage**.
+Total tasks
 
-Do not create:
+Pending tasks
 
-- A backend
-- A database
-- An API
-- Authentication
+Completed tasks
 
-The goal is to keep the project focused on HTML, CSS, and JavaScript fundamentals.
 
----
+The numbers should update when tasks change.
 
-## 6. AI Usage
-
-**AI IS ALLOWED AND ENCOURAGED**
-
-You may use modern AI development tools during this challenge.
-
-Examples include:
-
-- ChatGPT
-- Claude
-- Gemini
-- GitHub Copilot
-- Cursor
-- Other AI development tools
-
-You may use AI to:
-
-- Understand unfamiliar concepts
-- Plan your application
-- Learn HTML, CSS, or JavaScript
-- Generate code
-- Debug errors
-- Explain code
-- Improve your implementation
-- Review your code
-- Research possible solutions
-
-Using AI is not against the rules.
-
-However, you are responsible for the code you submit.
-
-You should understand the important parts of your application and be able to explain your implementation during the review.
-
-Do not blindly submit code that you do not understand.
 
 ---
 
-## 7. Git & GitHub Workflow
+💾 Data Persistence
 
-This challenge also tests your ability to work with Git and GitHub.
+Your tasks must remain available after refreshing the browser.
 
-Please follow this workflow.
+Use:
 
-### Step 1: Fork the Repository
+Browser LocalStorage
 
-Fork this repository into your own GitHub account.
+You do not need:
 
-Do not directly modify the BuildLab repository.
+A backend
 
-### Step 2: Clone Your Fork
+A database
 
-Clone your fork to your computer.
+An API
+
+Authentication
+
+A server
+
+
+This is a frontend challenge.
+
+
+---
+
+📱 Responsive Design
+
+Your application should work properly on:
+
+Desktop
+
+Tablet
+
+Mobile
+
+
+The interface should remain usable on smaller screens.
+
+
+---
+
+🎨 User Interface
+
+Your application does not need to look like a commercial product.
+
+However, it should be:
+
+Clean
+
+Understandable
+
+Easy to navigate
+
+Properly spaced
+
+Responsive
+
+Consistent
+
+
+Think about the person actually using the application.
+
+
+---
+
+⚠️ User Feedback & Edge Cases
+
+Your application should handle common situations properly.
+
+For example:
+
+Empty task
+
+Do not allow a user to create a task with an empty title.
+
+No tasks
+
+Show a useful empty state instead of leaving the screen blank.
+
+No search results
+
+Tell the user when their search does not match any task.
+
+Invalid actions
+
+Give the user appropriate feedback when something goes wrong.
+
+
+---
+
+🤖 AI Tools Are Allowed
+
+AI tools are allowed and encouraged.
+
+You may use tools such as:
+
+ChatGPT
+
+Claude
+
+Gemini
+
+GitHub Copilot
+
+Other AI coding/research tools
+
+
+You may use AI for:
+
+Learning
+
+Research
+
+Brainstorming
+
+Debugging
+
+Understanding errors
+
+Generating code
+
+Improving code
+
+Writing documentation
+
+
+However:
+
+> You are responsible for the code you submit.
+
+
+
+You must understand your implementation and be able to explain how it works.
+
+Do not blindly copy AI-generated code and submit it without understanding it.
+
+During the review process, you may be asked questions about your project.
+
+
+---
+
+🧑‍💻 Work Independently
+
+You should complete the challenge independently.
+
+This means:
+
+Do not build the project together with another applicant.
+
+Do not copy another applicant's implementation.
+
+Do not submit someone else's project.
+
+
+You may use:
+
+Documentation
+
+Search engines
+
+AI tools
+
+Tutorials
+
+Learning resources
+
+
+Learning how to find information and solve problems is part of the challenge.
+
+
+---
+
+🔀 Git & GitHub Workflow
+
+This challenge is also testing whether you can work with Git and GitHub.
+
+Follow this workflow:
+
+Fork Repository
+       ↓
+Clone Repository
+       ↓
+Create Your Branch
+       ↓
+Build Your Project
+       ↓
+Test Your Project
+       ↓
+Commit Your Changes
+       ↓
+Push Your Branch
+       ↓
+Open Pull Request
+       ↓
+Code Review
+       ↓
+Make Requested Changes
+       ↓
+Final Review
+
+
+---
+
+🌿 Branch
+
+Do not build your project directly on the main branch.
+
+Create your own branch.
+
+For example:
+
+candidate/mansur
+
+or:
+
+application/mansur
+
+Use your own name or GitHub username.
+
+
+---
+
+💬 Commits
+
+Use meaningful commit messages.
+
+Avoid commits like:
+
+update
+test
+changes
+final
+asdf
+
+Prefer messages such as:
+
+feat: add task creation
+feat: add task filtering
+feat: persist tasks with localStorage
+fix: prevent empty tasks
+style: improve mobile layout
+
+Your commit history does not need to be perfect.
+
+We simply want to see that you understand the purpose of commits.
+
+
+---
+
+🔃 Pull Request
+
+When your project is ready, open a Pull Request from your branch to the BuildLab repository.
+
+Your Pull Request title should clearly identify you.
+
+For example:
+
+Entry Challenge: Mansur Nasir
+
+
+---
+
+📝 Pull Request Description
+
+Your Pull Request description should contain:
+
+What I Built
+
+Briefly explain your application.
+
+Main Features
+
+List the main features you implemented.
+
+Technical Approach
+
+Explain briefly how you structured your HTML, CSS, and JavaScript.
+
+How I Tested It
+
+Explain what you tested.
+
+AI Usage
+
+Tell us:
+
+Whether you used AI
+
+Which AI tools you used
+
+What you used them for
+
 
 Example:
 
-```bash
-git clone YOUR_REPOSITORY_URL
-```
+I used ChatGPT to help me understand LocalStorage
+and debug a filtering issue.
 
-Then open the project in your preferred code editor.
+Challenges
 
-### Step 3: Create a Branch
+Tell us about one or two problems you encountered and how you solved them.
 
-Do not work directly on `main`.
+Known Limitations
 
-Create a feature branch.
+Mention anything you know is incomplete or could be improved.
 
-Example:
 
-```bash
-git checkout -b feature/student-task-manager
-```
+---
 
-You may choose another appropriate branch name.
+👀 Code Review
 
-### Step 4: Build the Application
+Opening the Pull Request is not necessarily the end.
 
-Read the requirements carefully.
+BuildLab may review your code and leave comments or request changes.
 
-Plan your approach before you start building.
+For example, we may ask you to:
 
-You are responsible for making your own:
+Fix a bug
 
-- HTML structure
-- CSS design
-- JavaScript logic
-- User experience decisions
+Improve a function
 
-### Step 5: Test Your Application
+Improve accessibility
 
-Before submitting your work, test the major features.
+Handle an edge case
+
+Improve code organization
+
+Explain a technical decision
+
+
+If changes are requested, make the changes on the same branch.
+
+Your Pull Request will automatically update.
+
+You may be asked to explain why you made certain decisions.
+
+This is part of the challenge.
+
+
+---
+
+🧪 Testing
+
+Before submitting your Pull Request, test your application yourself.
 
 At minimum, test:
 
-- Creating a task
-- Viewing tasks
-- Completing a task
-- Deleting a task
-- Searching
-- Filtering
-- Refreshing the page
-- LocalStorage persistence
-- Empty states
-- Invalid or empty input
-- Mobile responsiveness
+Creating a task
 
-Also make sure that one feature does not break another.
+Creating multiple tasks
 
-### Step 6: Commit Your Work
+Completing a task
 
-Use meaningful Git commits.
+Reopening a completed task
 
-Avoid commit messages such as:
+Deleting a task
 
-- final
-- done
-- update
-- project
+Searching
 
-Instead, use messages that describe what changed.
+Case-insensitive search
 
-Examples:
+Filtering
 
-```bash
-git commit -m "feat: add task creation"
-git commit -m "feat: add task filtering"
-git commit -m "fix: handle empty task input"
-```
+Task counters
 
-You do not need to create a huge number of commits.
+Refreshing the page
 
-Make commits that represent meaningful changes.
+LocalStorage persistence
 
-### Step 7: Push Your Branch
+Empty input
 
-Push your branch to your GitHub fork.
+No search results
 
-Example:
+Mobile layout
 
-```bash
-git push origin feature/student-task-manager
-```
 
-### Step 8: Create a Pull Request
+Don't only test the "happy path."
 
-After completing your work, create a Pull Request from your branch to the original BuildLab repository.
+Try to break your own application.
 
-Your Pull Request should include:
-
-**What I Built**
-Briefly describe your application.
-
-**Main Features**
-List the main features you implemented.
-
-**Technical Approach**
-Explain how you implemented the main functionality.
-
-**How I Tested It**
-Explain what you tested.
-
-**AI Usage**
-Tell us:
-
-- Which AI tools you used
-- What you used them for
-- How AI helped you
-- Anything important you learned from using AI
-
-**Challenges**
-Mention one or two challenges you encountered and how you solved them.
-
-**Known Limitations**
-If something is incomplete or could be improved, tell us.
-
-Do not pretend that everything is perfect.
-
-**Then fill in the application form:** [BuildLab Application Form](https://docs.google.com/forms/d/e/1FAIpQLSfY1UWLsTv9_4yo_hMGW_ttUgfo9AAPRFBc1VZy5LPFAdJHaQ/viewform)
 
 ---
 
-## 8. Code Review
+🔐 Security & Good Practices
 
-After submitting your Pull Request, BuildLab will review your work.
+Even though this is a small project, follow basic good practices.
 
-You may receive comments or requests for changes.
+Do not commit:
 
-For example, a reviewer may ask you to:
+Passwords
 
-- Fix a bug
-- Improve part of the code
-- Improve an error state
-- Explain a technical decision
-- Refactor a section
-- Improve accessibility
-- Improve the user experience
+API keys
 
-If changes are requested:
+Secret tokens
 
-1. Make the changes on the same branch.
-2. Commit the changes.
-3. Push the branch again.
+Private credentials
 
-Your existing Pull Request will automatically update.
+.env files containing secrets
 
-You do not need to create a new Pull Request.
+
+Do not include unnecessary sensitive information in your project.
+
 
 ---
 
-## 9. Be Ready to Explain Your Work
+✨ Optional Features
 
-After submitting your application, you may be asked questions about your implementation.
+The following are optional.
+
+You do not need them to complete the challenge.
+
+You could add:
+
+Task priorities
+
+Categories
+
+Due dates
+
+Sorting
+
+Dark mode
+
+Keyboard shortcuts
+
+Drag and drop
+
+Statistics
+
+Better accessibility
+
+Custom confirmation dialogs
+
+Edit tasks
+
+Task descriptions
+
+
+Do not sacrifice the required features just to add optional features.
+
+A simple, complete application is better than a complicated unfinished one.
+
+
+---
+
+📚 Documentation
+
+Your project should contain a README.md.
+
+It should explain:
+
+1. What the project is
+
+2. Features
+
+3. How to run it
 
 For example:
 
-- Why did you structure your HTML this way?
-- How does your task creation work?
-- How are tasks stored?
-- How does your search work?
-- How does LocalStorage work in your application?
-- What happens when the user refreshes the page?
-- Why did you choose this design?
-- What did AI help you with?
-- What problems did you encounter?
-- What would you improve if you had more time?
+Open index.html in a browser.
 
-You do not need to know every answer immediately.
+4. How data is stored
 
-If you do not know something, be honest and explain how you would find the answer.
+Explain how you used LocalStorage.
 
----
+5. AI Usage
 
-## 10. Project Quality
+Explain which AI tools you used and how.
 
-We are not expecting a production-ready application.
+6. Known Limitations
 
-However, your project should demonstrate reasonable care.
+Mention anything that could be improved.
 
-We will look at things such as:
-
-- Working functionality
-- Clean HTML
-- Organized CSS
-- Readable JavaScript
-- Reasonable naming
-- Good user experience
-- Responsive design
-- Basic error handling
-- Good Git practices
-- Clear documentation
-
-A simple but well-built application is completely acceptable.
 
 ---
 
-## 11. Security
+📁 Suggested Structure
 
-Do not commit sensitive information to GitHub.
+You may organize your project however you want.
 
-Never commit:
+For example:
 
-- Passwords
-- API keys
-- Secret tokens
-- Private credentials
-- Other sensitive information
+student-task-manager/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 
-For this challenge, you should not need any secret credentials.
+You are not required to use this exact structure.
 
----
+Choose an organization that makes sense for your project.
 
-## 12. Keep the Scope Reasonable
-
-You do not need to build:
-
-- User authentication
-- Payment systems
-- Chat
-- Notifications
-- Admin dashboards
-- Complex backend systems
-- AI agents
-- APIs
-- Databases
-
-Focus on completing the required application properly.
-
-We value a well-finished MVP more than an unfinished application with many unnecessary features.
 
 ---
 
-## 13. Optional Features
+🚫 Keep the Scope Reasonable
 
-Once all required features are working, you may add additional features using only HTML, CSS, and JavaScript.
+Do not turn this into a huge application.
 
-Examples:
+You do not need:
 
-- Task priorities
-- Categories
-- Due dates
-- Sorting
-- Dark mode
-- Keyboard shortcuts
-- Drag and drop
-- Task statistics
-- Better accessibility
-- Custom confirmation dialogs
+User accounts
 
-Optional features are not required.
+Login
 
-Do not sacrifice required features just to add extra features.
+Backend
 
----
+Database
 
-## 14. Documentation
+Payments
 
-Your completed project should include documentation explaining:
+APIs
 
-- What the application does
-- Technologies used
-- How to run the application
-- How tasks are stored
-- AI tools used
-- Known limitations
+Authentication
 
-Another developer should be able to clone your repository and understand how to run your project.
+Cloud deployment
+
+Complex architecture
+
+
+The goal is to build a small, functional application properly.
+
 
 ---
 
-## 15. Submission Checklist
+🧠 What We Care About
 
-Before creating your Pull Request, make sure:
+We will look at more than whether the application works.
 
-- [ ] Application runs correctly
-- [ ] Tasks can be created
-- [ ] Tasks can be viewed
-- [ ] Tasks can be completed
-- [ ] Tasks can be deleted
-- [ ] Tasks can be searched
-- [ ] Tasks can be filtered
-- [ ] Task summary works
-- [ ] Data remains after refresh
-- [ ] LocalStorage works correctly
-- [ ] Empty states are handled
-- [ ] Invalid input is handled
-- [ ] Application works on mobile
-- [ ] HTML is reasonably organized
-- [ ] CSS is reasonably organized
-- [ ] JavaScript is reasonably organized
-- [ ] No sensitive information is committed
-- [ ] A Git branch was used
-- [ ] Commits have meaningful messages
-- [ ] Project documentation is included
-- [ ] Pull Request description is complete
-- [ ] AI usage has been documented
-- [ ] You can explain your implementation
-- [ ] The application form has been submitted (after opening your Pull Request)
+We may consider:
 
----
+Did you follow the requirements?
 
-## 16. Important
+Does the application actually work?
 
-You are not expected to know everything before starting this challenge.
+Is the code understandable?
 
-You are allowed to:
+Did you test your work?
 
-- Research
-- Read documentation
-- Use AI
-- Make mistakes
-- Ask questions when something is unclear
+Can you explain your implementation?
 
-What matters is how you approach the problem, learn what you need, build the solution, and take responsibility for the work you submit.
+Did you use Git properly?
+
+Did you document your project?
+
+How did you handle problems?
+
+How did you respond to code review?
+
+Did you take responsibility for your work?
+
+
+We are not expecting perfection.
+
+We are looking for evidence of potential, discipline, curiosity, and willingness to learn.
+
 
 ---
 
-## 17. Final Submission
+✅ Final Checklist
 
-The expected workflow is:
+Before submitting your Pull Request, make sure:
 
-```text
-Fork
-  ↓
-Clone
-  ↓
-Create Branch
-  ↓
-Plan
-  ↓
-Build
-  ↓
-Test
-  ↓
-Commit
-  ↓
-Push
-  ↓
-Pull Request
-  ↓
-Application Form
-  ↓
-Code Review
-  ↓
-Make Changes
-  ↓
-Final Review
-```
+[ ] The application is built from scratch.
 
-**Build something you can explain, not just something that runs.**
+[ ] HTML, CSS, and JavaScript are used.
+
+[ ] No prohibited frameworks or UI libraries are used.
+
+[ ] Tasks can be created.
+
+[ ] Tasks can be viewed.
+
+[ ] Tasks can be completed.
+
+[ ] Tasks can be deleted.
+
+[ ] Tasks can be searched.
+
+[ ] Search is case-insensitive.
+
+[ ] Tasks can be filtered.
+
+[ ] Task counters work.
+
+[ ] Tasks persist after refresh.
+
+[ ] LocalStorage is used.
+
+[ ] Empty input is handled.
+
+[ ] Empty states are handled.
+
+[ ] The application is responsive.
+
+[ ] The project has a README.
+
+[ ] Your Git history contains meaningful commits.
+
+[ ] You created a separate branch.
+
+[ ] You tested your application.
+
+[ ] You opened a Pull Request.
+
+[ ] Your Pull Request contains the required information.
+
+[ ] You can explain your code.
+
+[ ] You disclosed your AI usage.
+
+
 
 ---
 
-**BuildLab Community**
+🚀 Final Workflow
 
-Student Software Engineering Community
+Your complete process is:
+
+1. Read this README
+        ↓
+2. Fork the repository
+        ↓
+3. Clone your fork
+        ↓
+4. Create your branch
+        ↓
+5. Build the Student Task Manager
+        ↓
+6. Test your application
+        ↓
+7. Commit your work
+        ↓
+8. Push your branch
+        ↓
+9. Open your Pull Request
+        ↓
+10. Respond to code review if requested
+        ↓
+11. Submit the BuildLab application form
+
+Remember
+
+You don't need to know everything.
+
+You need to be willing to learn, solve problems, build, test, explain, and improve.
+
+> Build something you can explain, not just something that runs.
+
+
+
+
+---
+
+🏁 Good luck!
+
+BuildLab
+
+Learn together. Build together. Grow together.

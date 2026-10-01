@@ -1,163 +1,126 @@
 
-🚀 BuildLab Entry Challenge
+# 🚀 BuildLab Entry Challenge
 
-Welcome to the BuildLab Entry Challenge.
+Welcome to the **BuildLab Entry Challenge**.
 
-BuildLab is a student Software Engineering community focused on learning together, building real projects, solving real problems, and growing as engineers.
+BuildLab is a student Software Engineering community focused on **learning together, building real projects, solving real problems, and growing as engineers**.
 
 This challenge is part of our recruitment process.
 
-We are not looking for people who already know everything. We are looking for students who can learn, think, build, communicate, and take responsibility for their work.
-
+We are not looking for people who already know everything. We are looking for students who can **learn, think, build, communicate, and take responsibility for their work**.
 
 ---
 
-🎯 What This Challenge Tests
+## 🎯 What This Challenge Tests
 
 This challenge gives you a small real-world software task.
 
 We want to see how you:
 
-Understand requirements
+- Understand requirements
+- Solve problems
+- Learn independently
+- Write and organize code
+- Use Git and GitHub
+- Use AI tools responsibly
+- Test your work
+- Handle feedback
+- Explain your decisions
+- Document your project
 
-Solve problems
+You are **not expected to build a production-level application**.
 
-Learn independently
-
-Write and organize code
-
-Use Git and GitHub
-
-Use AI tools responsibly
-
-Test your work
-
-Handle feedback
-
-Explain your decisions
-
-Document your project
-
-
-You are not expected to build a production-level application.
-
-We are more interested in how you approach the problem than how many fancy features you add.
-
+We are more interested in **how you approach the problem** than how many fancy features you add.
 
 ---
 
-⏰ Deadline
+## ⏰ Deadline
 
-Saturday, 3 October 2026, 11:59 PM
+### Saturday, 3 October 2026, 11:59 PM
 
-Late Pull Requests will not be reviewed.
+**Late Pull Requests will not be reviewed.**
 
 Your application is considered complete only when you have:
 
 1. Submitted your project through a Pull Request.
-
-
 2. Submitted the application form after opening your Pull Request.
-
-
-
 
 ---
 
-📌 Challenge: Student Task Manager
+# 📌 The Challenge
 
-Build a simple Student Task Manager that allows a student to manage their tasks.
+## Student Task Manager
+
+Build a simple **Student Task Manager** that allows a student to manage their tasks.
 
 The application must be built from scratch using:
 
-HTML
+- HTML
+- CSS
+- JavaScript
 
-CSS
+### 🚫 Do Not Use
 
-JavaScript
-
-
-🚫 Do not use:
-
-React
-
-Next.js
-
-Vue
-
-Angular
-
-Svelte
-
-Bootstrap
-
-Tailwind CSS
-
-jQuery
-
-Frontend frameworks
-
-UI libraries
-
+- React
+- Next.js
+- Vue
+- Angular
+- Svelte
+- Bootstrap
+- Tailwind CSS
+- jQuery
+- Frontend frameworks
+- UI libraries
 
 The goal is to see your understanding of the fundamentals.
 
-
 ---
 
-🧩 Required Features
+## 🧩 Required Features
 
-Your application must allow users to:
-
-1. Create Tasks
+### 1. Create Tasks
 
 A user should be able to add a new task.
 
 Each task should contain at least:
 
-Task title
-
+- Task title
 
 You may add additional information if you want.
 
-
 ---
 
-2. View Tasks
+### 2. View Tasks
 
 Display created tasks clearly.
 
 Each task should show its current status.
 
-
 ---
 
-3. Complete Tasks
+### 3. Complete Tasks
 
 Users should be able to mark a task as completed.
 
 Users should also be able to change a completed task back to pending.
 
-
 ---
 
-4. Delete Tasks
+### 4. Delete Tasks
 
 Users should be able to delete tasks.
 
-
 ---
 
-5. Search Tasks
+### 5. Search Tasks
 
 Add a search feature.
 
-The search must be case-insensitive.
+The search must be **case-insensitive**.
 
-For example:
+For example, searching for:
 
-Searching for:
-
+```text
 assignment
 
 should also find:
@@ -269,21 +232,19 @@ Think about the person actually using the application.
 
 Your application should handle common situations properly.
 
-For example:
-
-Empty task
+Empty Task
 
 Do not allow a user to create a task with an empty title.
 
-No tasks
+No Tasks
 
 Show a useful empty state instead of leaving the screen blank.
 
-No search results
+No Search Results
 
 Tell the user when their search does not match any task.
 
-Invalid actions
+Invalid Actions
 
 Give the user appropriate feedback when something goes wrong.
 
@@ -457,14 +418,14 @@ Your Pull Request title should clearly identify you.
 
 For example:
 
-Entry Challenge: Mansur Nasir
+Entry Challenge: Your Name
 
 
 ---
 
 📝 Pull Request Description
 
-Your Pull Request description should contain:
+Your Pull Request description should contain the following sections:
 
 What I Built
 
@@ -640,7 +601,9 @@ Task descriptions
 
 Do not sacrifice the required features just to add optional features.
 
-A simple, complete application is better than a complicated unfinished one.
+> A simple, complete application is better than a complicated unfinished one.
+
+
 
 
 ---
@@ -651,17 +614,23 @@ Your project should contain a README.md.
 
 It should explain:
 
-1. What the project is
+1. What the Project Is
+
+Briefly explain your application.
 
 2. Features
 
-3. How to run it
+List the features you implemented.
+
+3. How to Run It
+
+Explain how someone can run your project.
 
 For example:
 
 Open index.html in a browser.
 
-4. How data is stored
+4. How Data Is Stored
 
 Explain how you used LocalStorage.
 
@@ -676,7 +645,7 @@ Mention anything that could be improved.
 
 ---
 
-📁 Suggested Structure
+📁 Suggested Project Structure
 
 You may organize your project however you want.
 
@@ -755,7 +724,22 @@ Did you take responsibility for your work?
 
 We are not expecting perfection.
 
-We are looking for evidence of potential, discipline, curiosity, and willingness to learn.
+We are looking for evidence of:
+
+Problem-solving
+
+Learning ability
+
+Discipline
+
+Curiosity
+
+Communication
+
+Technical foundation
+
+Willingness to improve
+
 
 
 ---
@@ -842,11 +826,16 @@ Your complete process is:
         ↓
 11. Submit the BuildLab application form
 
-Remember
+
+---
+
+🏁 Final Note
 
 You don't need to know everything.
 
-You need to be willing to learn, solve problems, build, test, explain, and improve.
+You need to be willing to:
+
+Learn. Solve. Build. Test. Explain. Improve.
 
 > Build something you can explain, not just something that runs.
 
@@ -855,8 +844,6 @@ You need to be willing to learn, solve problems, build, test, explain, and impro
 
 ---
 
-🏁 Good luck!
-
-BuildLab
+🚀 BuildLab
 
 Learn together. Build together. Grow together.

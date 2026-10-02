@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Task Manager</title>
+    <meta name="description" content="A lightweight student task manager. Add, complete, search, and filter tasks — all saved in your browser." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-wrapper">
+      <!-- Header -->
+      <header class="app-header">
+        <div class="badge"><span class="pulse"></span> BuildLab Challenge</div>
+        <h1>Student Task Manager</h1>
+        <p>Organize your tasks, stay on track, and get things done.</p>
+      </header>
+
+      <!-- Main Card -->
+      <main class="main-card">
+
+        <!-- Summary Stats -->
+        <section class="summary-bar" aria-label="Task summary">
+          <div class="summary-item">
+            <span class="count total" id="count-total">0</span>
+            <span class="label">Total</span>
+          </div>
+          <div class="summary-item">
+            <span class="count done" id="count-done">0</span>
+            <span class="label">Completed</span>
+          </div>
+          <div class="summary-item">
+            <span class="count pending" id="count-pending">0</span>
+            <span class="label">Pending</span>
+          </div>
+        </section>
+
+        <!-- Controls: Search + Add -->
+        <section class="controls" aria-label="Add and search tasks">
+          <div class="search-box">
+            <span class="icon">🔍</span>
+            <input type="text" id="search-input" placeholder="Search tasks…" autocomplete="off" />
+          </div>
+          <div class="add-box">
+            <input type="text" id="task-input" placeholder="What do you need to do?" autocomplete="off" />
+            <button class="btn-add" id="btn-add">
+              <span>＋</span> Add
+            </button>
+          </div>
+        </section>
+
+        <!-- Filter Tabs -->
+        <nav class="filter-bar" aria-label="Filter tasks">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="pending">Pending</button>
+          <button class="filter-btn" data-filter="completed">Completed</button>
+        </nav>
+
+        <!-- Task List -->
+        <ul class="task-list" id="task-list">
+          <!-- Rendered by script.js -->
+        </ul>
+      </main>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
